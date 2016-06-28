@@ -1,7 +1,5 @@
-var path = require('path')
-
 function image(name) {
-	return require(path.join(__dirname, 'lib', name))
+	return require('./lib/' + name)
 }
 
 module.exports = image
