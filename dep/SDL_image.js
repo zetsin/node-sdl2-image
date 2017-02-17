@@ -68,8 +68,7 @@ var SDL_Rect = exports.SDL_Rect = Struct({
 	w: int32,
 	h: int32,
 })
-var SDL_BlitMap = exports.SDL_BlitMap = Struct({
-})
+var SDL_BlitMap = exports.SDL_BlitMap = voit
 var SDL_BlitMap_ptr = exports.SDL_BlitMap_ptr = ref.refType(SDL_BlitMap)
 var SDL_Surface = exports.SDL_Surface = Struct({
 	flags: Uint32,
@@ -111,11 +110,9 @@ var SDL_RWops = exports.SDL_RWops = Struct({
 })
 var SDL_RWops_ptr = exports.SDL_RWops_ptr = ref.refType(SDL_RWops)
 var string = exports.string = ref.types.CString
-var SDL_Texture = exports.SDL_Texture = Struct({
-})
+var SDL_Texture = exports.SDL_Texture = voit
 var SDL_Texture_ptr = exports.SDL_Texture_ptr = ref.refType(SDL_Texture)
-var SDL_Renderer = exports.SDL_Renderer = Struct({
-})
+var SDL_Renderer = exports.SDL_Renderer = voit
 var SDL_Renderer_ptr = exports.SDL_Renderer_ptr = ref.refType(SDL_Renderer)
 var string_ptr = exports.string_ptr = ref.refType(string)
 
